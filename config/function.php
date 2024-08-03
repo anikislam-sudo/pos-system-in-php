@@ -1,7 +1,7 @@
 <?php 
  session_start();
 
- require'dbcon.php';
+ require('dbcon.php');
  //input field validation
  function validate($inputData){
  global $conn;
